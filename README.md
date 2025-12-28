@@ -4,10 +4,10 @@ Local Retrieval-Augmented Generation chatbot for querying 7 cutting-edge AI rese
 **Live Demo**
 - Run locally
 
-*Chatbot interface showing the main chat window with sample inputs.*
+**Chatbot interface showing the main chat window with sample inputs.**
 ![Chatbot Interface](Chatbot_Interface.png)
 
-*Sample query and response with retrieved source citations.*
+**Sample query and response with retrieved source citations.**
 ![Sample Query](Sample_Query.png)
 
 ## Key Features
