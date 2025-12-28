@@ -3,8 +3,8 @@ Local Retrieval-Augmented Generation chatbot for querying 7 cutting-edge AI rese
 
 **Live Demo**
 - Run locally
-![](image.png)
-![](image-1.png)
+![Chatbot Interface](Chatbot_Interface.png)
+![Sample Query](Sample_Query.png)
 
 ## Key Features
 - Offline inference with Llama 3.1 8B
