@@ -16,7 +16,6 @@ def load_docs():
     )
     return text_splitter.split_documents(documents)
 
-# Local embeddings
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
 vectorstore_path = "vectorstore"
@@ -34,8 +33,6 @@ else:
         allow_dangerous_deserialization=True
     )
 
-# Local LLM running on GPU
-# First run: ollama pull llama3.2:3b
 llm = ChatOllama(
     model="llama3.1:8b",
     temperature=0.7,
@@ -69,7 +66,6 @@ def chat(message, history):
     
     return history
 
-# Sample questions based on the actual PDFs
 sample_questions = [
     "What are the levels of AGI as defined in the paper?",
     "How do reasoning models differ from standard language models?",
@@ -80,7 +76,6 @@ sample_questions = [
     "What evidence suggests sparks of artificial general intelligence in GPT-4?"
 ]
 
-# Gradio UI
 with gr.Blocks(title="Research Papers Q&A System") as demo:
     gr.Markdown("# Research Papers Question Answering System")
     gr.Markdown("Ask questions about the AI research papers in the knowledge base.")
