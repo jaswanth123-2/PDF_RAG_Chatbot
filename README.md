@@ -15,7 +15,6 @@ Local Retrieval-Augmented Generation chatbot for querying research papers using 
 ## Key Features
 - Offline inference with Llama 3.1 8B
 - FAISS vector store with sentence-transformer embeddings
-- FAISS vector store for fast retrieval
 - Source citations from PDFs
 - Gradio UI with sample questions
 
