@@ -5,41 +5,26 @@ __pycache__/
 vectorstore/
 *.tmp
 .DS_Store
-# Virtual environment
 venv/
 env/
 .venv/
 __pycache__/
 *.pyc
-
-# Vector store (recreated on run)
 vectorstore/
 faiss_index/
-
-# Gradio cache and temporary files
 .gradio/
 cache/
-
-# Ollama-related (models are huge, downloaded via ollama pull)
 ollama/
 *.bin
 *.gguf
 models/
-
-# Environment variables and secrets (not needed now, but safe to ignore)
 .env
 .env.local
-
-# IDE and editor files
 .vscode/
 .idea/
 *.code-workspace
-
-# OS-specific files
 .DS_Store
 Thumbs.db
-
-# Logs and temporary files
 *.log
 tmp/
 temp/
