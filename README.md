@@ -1,4 +1,4 @@
-# AI Research Papers RAG Chatbot
+## PDF RAG Chatbot
 Local Retrieval-Augmented Generation chatbot for querying research papers using Ollama and LangChain.
 
 **Live Demo**
